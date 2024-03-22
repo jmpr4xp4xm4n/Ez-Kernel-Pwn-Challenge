@@ -1,0 +1,47 @@
+name: Ez Kernel Pwn
+author: "K4Fr"
+# category: pwn
+description: Linux kernel misc device pwning can be fun!
+value: 500
+# type: standard
+
+image: .
+
+protocol: tcp
+
+# host: null
+
+# connection_info: nc localhost 1337
+
+# healthcheck: 
+
+# attempts: 5
+
+flags:
+    - pecan{d0ubl3_f3tCh_1n_d4_k3rn3l_1z_FuN!!!!}
+
+# topics:
+#     - Double fetch
+#     - Race condition
+#     - Heap overflow
+#     - Kernel ROP
+
+# tags:
+#     - linux kernel
+#     - heap
+
+files:
+    - bzImage
+    - service.sh
+    - rootfs.cpio
+
+# hints:
+#     - {
+#         content: "This hint costs points",
+#         cost: 10
+#     }
+#     - This hint is free
+
+# state: hidden
+
+# version: "0.1"
